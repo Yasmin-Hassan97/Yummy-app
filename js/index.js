@@ -19,7 +19,7 @@ const currentLeft=$('.side-nav-menu').css('left');
 
 closeIcon.classList.toggle('d-none');
 openIcon.classList.toggle('d-none');
-console.log('sidebar');
+$('.links li').css('top', '300px');
 
 if(currentLeft=='0px'){
   $('.side-nav-menu').animate({left:`-${innerSidebarWidth}px`},500);
